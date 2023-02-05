@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #f12711, #f5af19);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
